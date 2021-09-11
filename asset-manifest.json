@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/trinary/static/css/main.1e0054ed.chunk.css",
+    "main.js": "/trinary/static/js/main.d0f77bb8.chunk.js",
+    "main.js.map": "/trinary/static/js/main.d0f77bb8.chunk.js.map",
+    "runtime-main.js": "/trinary/static/js/runtime-main.5bdfbb3e.js",
+    "runtime-main.js.map": "/trinary/static/js/runtime-main.5bdfbb3e.js.map",
+    "static/js/2.5b147d3d.chunk.js": "/trinary/static/js/2.5b147d3d.chunk.js",
+    "static/js/2.5b147d3d.chunk.js.map": "/trinary/static/js/2.5b147d3d.chunk.js.map",
+    "index.html": "/trinary/index.html",
+    "static/css/main.1e0054ed.chunk.css.map": "/trinary/static/css/main.1e0054ed.chunk.css.map",
+    "static/js/2.5b147d3d.chunk.js.LICENSE.txt": "/trinary/static/js/2.5b147d3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bdfbb3e.js",
+    "static/js/2.5b147d3d.chunk.js",
+    "static/css/main.1e0054ed.chunk.css",
+    "static/js/main.d0f77bb8.chunk.js"
+  ]
+}
