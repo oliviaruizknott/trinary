@@ -1,0 +1,2 @@
+body{margin:0;padding:15%}body,input{font-family:monospace}input{border:none;text-align:center;width:100%}input:focus{outline:none}.App{display:flex;justify-content:center}.Trinary{display:flex;flex-direction:column;align-items:center;width:250px}.Diagram{margin:20px}.diagramRow,.Letter{display:flex}.Letter.reverse{flex-direction:row-reverse}.Cell{height:30px;width:30px}.fill-2{background:#000}.fill-1{background:grey}.fill-0{background:#fff}
+/*# sourceMappingURL=main.40fda4b9.chunk.css.map */
