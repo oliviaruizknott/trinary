@@ -20,7 +20,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <input type="text" name="string" onChange={this.updateString} />
+        <input type="text" name="string" onChange={this.updateString} placeholder="enter text here"/>
         <Diagram string={this.state.string} />
       </div>
     );

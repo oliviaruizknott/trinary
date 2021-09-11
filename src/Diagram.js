@@ -6,7 +6,7 @@ class Diagram extends React.Component {
     let stringSplit = this.props.string.split("")
     return stringSplit.map((letter, i) => {
       return (
-        <div className="letterRow">
+        <div className="diagramRow">
           <Letter key={i} value={letter} />
           <Letter key={i} value={letter} reverse={true}/>
         </div>
