@@ -1,26 +1,23 @@
-import React from 'react';
 import Letter from './Letter'
 
-class Diagram extends React.Component {
-  renderLetters() {
-    let stringSplit = this.props.string.split("")
+function Diagram(props) {
+  const renderLetters = () => {
+    let stringSplit = props.string.split("")
     return stringSplit.map((letter, i) => {
       return (
-        <div className="diagramRow">
-          <Letter key={i} value={letter} />
-          <Letter key={i} value={letter} reverse={true}/>
+        <div key={i} className="diagramRow">
+          <Letter key={i} id={i} value={letter} />
+          <Letter key={`${i}-reverse`} id={`${i}-reverse`} value={letter} reverse={true}/>
         </div>
       )
     })
   }
 
-  render() {
-    return (
-      <div className="Diagram">
-        {this.renderLetters()}
-      </div>
-    );
-  }
+  return (
+    <div className="Diagram">
+      {renderLetters()}
+    </div>
+  )
 }
 
 export default Diagram;

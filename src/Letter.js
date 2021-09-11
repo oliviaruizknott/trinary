@@ -1,9 +1,7 @@
-import React from 'react'
-
 import Cell from './Cell'
 
-class Letter extends React.Component {
-  convertToNumber(letter) {
+function Letter(props) {
+  const convertToNumber = (letter) => {
     // handle space
     if (letter.charCodeAt(0) === 32) {
       return 0
@@ -12,7 +10,7 @@ class Letter extends React.Component {
     return letter.toLowerCase().charCodeAt(0) - 96
   }
 
-  numberInTrinaryObject(num) {
+  const numberInTrinaryObject = (num) => {
     let trinaryPlaces = [9,3,1]
     let trinaryObject = {}
 
@@ -25,19 +23,17 @@ class Letter extends React.Component {
     return trinaryObject
   }
 
-  render() {
-    const number = this.convertToNumber(this.props.value)
-    const trinaryObject = this.numberInTrinaryObject(number)
-    const reverse = this.props.reverse ? "reverse" : ""
-    
-    return (
-      <div className={`Letter ${reverse}`}>
-        <Cell fill={trinaryObject[9]} />
-        <Cell fill={trinaryObject[3]} />
-        <Cell fill={trinaryObject[1]} />
-      </div>
-    );
-  }
+  const number = convertToNumber(props.value)
+  const trinaryObject = numberInTrinaryObject(number)
+  const reverse = props.reverse ? "reverse" : ""
+
+  return (
+    <div className={`Letter ${reverse}`}>
+      <Cell key={`${props.id}-9`} fill={trinaryObject[9]} />
+      <Cell key={`${props.id}-3`} fill={trinaryObject[3]} />
+      <Cell key={`${props.id}-1`} fill={trinaryObject[1]} />
+    </div>
+  )
 }
 
 export default Letter;

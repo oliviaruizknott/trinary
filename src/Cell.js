@@ -1,11 +1,5 @@
-import React from 'react';
-
-class Cell extends React.Component {
-  render() {
-    return (
-      <div className={`Cell fill-${this.props.fill}`}></div>
-    );
-  }
+function Cell(props) {
+  return <div className={`Cell fill-${props.fill}`}></div>
 }
 
 export default Cell;
