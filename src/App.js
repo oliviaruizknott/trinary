@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Diagram from "./Diagram"
+
+class App extends React.Component {
+  constructor(props){
+    super(props)
+
+    this.state = {
+      string: ""
+    }
+
+    this.updateString = this.updateString.bind(this)
+  }
+
+  updateString(e) {
+    this.setState({ string: e.target.value })
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <input type="text" name="string" onChange={this.updateString} />
+        <Diagram string={this.state.string} />
+      </div>
+    );
+  }
 }
 
 export default App;
