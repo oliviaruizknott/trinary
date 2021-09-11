@@ -1,5 +1,5 @@
-function Cell(props) {
-  return <div className={`Cell fill-${props.fill}`}></div>
+function Cell({ fill }) {
+  return <div className="Cell" style={{ background: `#${fill.replace('#', '')}` }}></div>
 }
 
 export default Cell;
