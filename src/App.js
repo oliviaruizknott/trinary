@@ -18,7 +18,7 @@ function App () {
   return (
     <div className="App">
       <input type="text" name="string" onChange={(e) => setString(e.target.value)} placeholder="enter text here"/>
-      <hr />
+      <br />
       <input type="text" name="color1" style={{ color: color1 }} onChange={(e) => setColor1(e.target.value)} value={color1} />
       <input type="text" name="color2" style={{ color: color2 }} onChange={(e) => setColor2(e.target.value)} value={color2} />
       <button type="button" name="swap" onClick={swapColors}>swap</button>

@@ -6,8 +6,8 @@ function Diagram({ string, colors }) {
     return stringSplit.map((letter, i) => {
       return (
         <div key={i} className="diagramRow">
-          <Letter key={i} id={i} value={letter} colors={colors} />
-          <Letter key={`${i}-reverse`} id={`${i}-reverse`} value={letter} colors={colors} reverse={true}/>
+          <Letter key={i} id={i} letter={letter} colors={colors} />
+          <Letter key={`${i}-reverse`} id={`${i}-reverse`} letter={letter} colors={colors} reverse={true}/>
         </div>
       )
     })

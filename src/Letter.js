@@ -1,13 +1,13 @@
 import Cell from './Cell'
 
-function Letter({ id, value, colors, reverse }) {
-  const convertToNumber = (letter) => {
+function Letter({ id, letter, colors, reverse }) {
+  const convertToNumber = (l) => {
     // handle space
-    if (letter.charCodeAt(0) === 32) {
+    if (l.charCodeAt(0) === 32) {
       return 0
     }
 
-    return letter.toLowerCase().charCodeAt(0) - 96
+    return l.toLowerCase().charCodeAt(0) - 96
   }
 
   const numberInTrinaryObject = (num) => {
@@ -27,14 +27,14 @@ function Letter({ id, value, colors, reverse }) {
     return colors[trinaryObject[num]]
   }
 
-  const number = convertToNumber(value)
+  const number = convertToNumber(letter)
   const trinaryObject = numberInTrinaryObject(number)
 
   return (
     <div className={`Letter ${reverse ? "reverse" : ""}`}>
-      <Cell key={`${id}-9`} fill={getFill(9)} />
-      <Cell key={`${id}-3`} fill={getFill(3)} />
-      <Cell key={`${id}-1`} fill={getFill(1)} />
+      <Cell key={`${id}-9`} fill={getFill(9)} value={trinaryObject[9]}/>
+      <Cell key={`${id}-3`} fill={getFill(3)} value={trinaryObject[3]}/>
+      <Cell key={`${id}-1`} fill={getFill(1)} value={trinaryObject[1]}/>
     </div>
   )
 }
