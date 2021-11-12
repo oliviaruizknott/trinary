@@ -4,15 +4,24 @@ body {
   font-family: monospace;
 }
 
-input {
+input, textarea {
   border: none;
   font-family: monospace;
   text-align: center;
+  resize: none;
   width: 100%;
 }
 
-input:focus {
+input:focus, textarea:focus {
   outline: none;
+}
+
+button {
+  margin: 2px;
+}
+
+p {
+  text-align: center;
 }
 
 .App {

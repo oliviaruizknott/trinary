@@ -2,12 +2,17 @@ import Cell from './Cell'
 
 function Letter({ id, letter, colors, reverse }) {
   const convertToNumber = (l) => {
-    // handle space
-    if (l.charCodeAt(0) === 32) {
-      return 0
+    // Subtracting 96 from the charCode gets us to a = 1, z = 26, etc.
+    const asNumber = l.toLowerCase().charCodeAt(0) - 96
+
+    // If the character is anything other than a letter, just treat it as a
+    // space. The character will still be visible in the text, but a blank row
+    // will appear in the diagram.
+    if (asNumber < 1 || asNumber > 26) {
+      return 0;
     }
 
-    return l.toLowerCase().charCodeAt(0) - 96
+    return asNumber;
   }
 
   const numberInTrinaryObject = (num) => {
