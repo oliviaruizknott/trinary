@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/trinary/static/css/main.40fda4b9.chunk.css",
-    "main.js": "/trinary/static/js/main.c16efb46.chunk.js",
-    "main.js.map": "/trinary/static/js/main.c16efb46.chunk.js.map",
+    "main.css": "/trinary/static/css/main.9381710e.chunk.css",
+    "main.js": "/trinary/static/js/main.5d078d65.chunk.js",
+    "main.js.map": "/trinary/static/js/main.5d078d65.chunk.js.map",
     "runtime-main.js": "/trinary/static/js/runtime-main.5bdfbb3e.js",
     "runtime-main.js.map": "/trinary/static/js/runtime-main.5bdfbb3e.js.map",
     "static/js/2.18ff4410.chunk.js": "/trinary/static/js/2.18ff4410.chunk.js",
     "static/js/2.18ff4410.chunk.js.map": "/trinary/static/js/2.18ff4410.chunk.js.map",
     "index.html": "/trinary/index.html",
-    "static/css/main.40fda4b9.chunk.css.map": "/trinary/static/css/main.40fda4b9.chunk.css.map",
+    "static/css/main.9381710e.chunk.css.map": "/trinary/static/css/main.9381710e.chunk.css.map",
     "static/js/2.18ff4410.chunk.js.LICENSE.txt": "/trinary/static/js/2.18ff4410.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5bdfbb3e.js",
     "static/js/2.18ff4410.chunk.js",
-    "static/css/main.40fda4b9.chunk.css",
-    "static/js/main.c16efb46.chunk.js"
+    "static/css/main.9381710e.chunk.css",
+    "static/js/main.5d078d65.chunk.js"
   ]
 }
