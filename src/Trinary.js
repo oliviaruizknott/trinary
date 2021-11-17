@@ -40,8 +40,8 @@ function Trinary ({ id }) {
         onMouseEnter={(e) => setShowHelp(true)}
         onMouseLeave={(e) => setShowHelp(false)}
       >
-        <input type="text" name="color1" style={{ color: color1 }} onChange={(e) => setColor1(e.target.value)} value={color1} />
-        <input type="text" name="color2" style={{ color: color2 }} onChange={(e) => setColor2(e.target.value)} value={color2} />
+        <input type="text" name="color1" style={{ color: color1 }} onChange={(e) => setColor1(e.target.value)} value={color1} aria-label="input for color 1"/>
+        <input type="text" name="color2" style={{ color: color2 }} onChange={(e) => setColor2(e.target.value)} value={color2} aria-label="input for color 2"/>
       </div>
       <br />
       <button type="button" name="swap" onClick={swapColors}>swap</button>

@@ -17,6 +17,7 @@ input:focus, textarea:focus {
 }
 
 button {
+  font-family: monospace;
   margin: 2px;
 }
 
@@ -24,9 +25,44 @@ p {
   text-align: center;
 }
 
+table {
+  margin: auto;
+}
+
 .App {
   display: flex;
   justify-content: center;
+}
+
+.aboutButton {
+  bottom: 10px;
+  left: 10px;
+  position: fixed;
+}
+
+.clickable {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.clickable:hover {
+  color: gray;
+}
+
+.About {
+  width: 250px;
+}
+
+.About .aboutDisplay {
+  display: flex;
+  justify-content: center;
+}
+
+.About .fill-0, .About .fill-1, .About .fill-2 {
+  border: 1px solid gray;
 }
 
 .Trinary {
