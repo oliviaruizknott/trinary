@@ -1,12 +1,18 @@
+@font-face {
+  font-family: "RKMono";
+  src: url("fonts/RKMono-14-Regular.woff2") format("woff2");
+}
+
 body {
   margin: 0;
   padding: 15%;
-  font-family: monospace;
+  font-family: "RKMono", monospace;
 }
 
 input, textarea {
   border: none;
-  font-family: monospace;
+  font-family: "RKMono", monospace;
+  font-size: 1em;
   text-align: center;
   resize: none;
   width: 100%;
@@ -17,7 +23,8 @@ input:focus, textarea:focus {
 }
 
 button {
-  font-family: monospace;
+  font-family: "RKMono", monospace;
+  font-size: 1em;
   margin: 2px;
 }
 
