@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/trinary/static/css/main.b7c7edf0.chunk.css",
-    "main.js": "/trinary/static/js/main.3ce7092b.chunk.js",
-    "main.js.map": "/trinary/static/js/main.3ce7092b.chunk.js.map",
+    "main.css": "/trinary/static/css/main.a023181d.chunk.css",
+    "main.js": "/trinary/static/js/main.b7e60d3a.chunk.js",
+    "main.js.map": "/trinary/static/js/main.b7e60d3a.chunk.js.map",
     "runtime-main.js": "/trinary/static/js/runtime-main.5bdfbb3e.js",
     "runtime-main.js.map": "/trinary/static/js/runtime-main.5bdfbb3e.js.map",
     "static/js/2.18ff4410.chunk.js": "/trinary/static/js/2.18ff4410.chunk.js",
     "static/js/2.18ff4410.chunk.js.map": "/trinary/static/js/2.18ff4410.chunk.js.map",
     "index.html": "/trinary/index.html",
-    "static/css/main.b7c7edf0.chunk.css.map": "/trinary/static/css/main.b7c7edf0.chunk.css.map",
-    "static/js/2.18ff4410.chunk.js.LICENSE.txt": "/trinary/static/js/2.18ff4410.chunk.js.LICENSE.txt"
+    "static/css/main.a023181d.chunk.css.map": "/trinary/static/css/main.a023181d.chunk.css.map",
+    "static/js/2.18ff4410.chunk.js.LICENSE.txt": "/trinary/static/js/2.18ff4410.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/trinary/static/media/RKMono-14-Regular.f73fea7b.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.5bdfbb3e.js",
     "static/js/2.18ff4410.chunk.js",
-    "static/css/main.b7c7edf0.chunk.css",
-    "static/js/main.3ce7092b.chunk.js"
+    "static/css/main.a023181d.chunk.css",
+    "static/js/main.b7e60d3a.chunk.js"
   ]
 }
