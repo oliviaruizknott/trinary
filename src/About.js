@@ -62,8 +62,9 @@ function About ({ closeAbout }) {
       <p>Great job!</p>
       <p>Now go back and type all sorts of words and sentences and see what shapes they make.</p>
       <p>(Some of my favorites so far are: “december”, “twelve”, “twenty”, “fourteen”, “notion”, and of course “livvy”.)</p>
-      <p>Conceptualized, designed, and built by Livvy. Typeface by Ivan. A project of <a href="https://ruiz-knott.com" className="clickable">Ruiz & Knott.</a></p>
-      <p>P.S. If you like this, you might like <a className="clickable" href="https://ruiz-knott.notion.site/obscured_data-aae285e2f7524780a4c92ec40eb1b6e8" target="_blank" rel="noopener noreferrer">@obscured_data.</a></p>
+      <p>Conceptualized, designed, and built by Livvy. Typeface by Ivan. A project of <a href="https://ruiz-knott.com" className="clickable">Ruiz & Knott</a>.</p>
+      <p>Read (slightly) more <a href="https://www.notion.so/ruiz-knott/Trinary-021bdc996d9943e1a86117f489546385" target="_blank" rel="noopener noreferrer" className="clickable">here</a>.</p>
+      <p>P.S. If you like this, you might like <a href="https://ruiz-knott.notion.site/obscured_data-aae285e2f7524780a4c92ec40eb1b6e8" target="_blank" rel="noopener noreferrer" className="clickable">@obscured_data</a>.</p>
     </div>
   )
 }
